@@ -1,0 +1,30 @@
+digraph {
+	rankdir=LR size="8000,5000"
+	A [label="Airfoil Dataset (.npy)" shape=cylinder]
+	B [label="AirfoilDataset (PyTorch)" shape=box]
+	C [label=DataLoader shape=box]
+	D [label="Critic Model
+(evaluates real/fake)" shape=box]
+	E [label="Generator Model
+(produces 64x2 points)" shape=box]
+	F [label="Train Loop
+(WGAN-GP)" shape=ellipse]
+	G [label="Generated Airfoils
+(raw 64x2)" shape=box]
+	H [label="Bezier + Normalization" shape=box]
+	I [label="Final Airfoils
+(smooth & scaled)" shape=box]
+	J [label="Save to .npy or
+Plot with Matplotlib" shape=parallelogram]
+	A -> B
+	B -> C
+	C -> F [label="Batches of real data"]
+	E -> F [label="Fake samples"]
+	D -> F [label="Critic scores"]
+	F -> E [label="Train Generator"]
+	F -> D [label="Train Critic"]
+	E -> G [label=Inference]
+	G -> H
+	H -> I
+	I -> J
+}
