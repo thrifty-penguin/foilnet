@@ -1,4 +1,4 @@
-# FoilNet 🐧✈️
+# FoilNet
 
 **Data-Driven Parameterisation and Aerodynamic Performance Prediction of Airfoils**
 
