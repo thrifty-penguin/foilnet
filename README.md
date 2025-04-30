@@ -8,11 +8,11 @@
 
 ## Key Features
 
-- 🌀 XFOIL integration for aerodynamic simulations  
-- 🤖 WGAN-GP model for airfoil generation  
-- 🧠 Neural network surrogate model for performance prediction  
-- 📊 Automated data processing pipeline  
-- 📈 Performance visualisation tools  
+- XFOIL integration for aerodynamic simulations  
+- WGAN-GP model for airfoil generation  
+- Neural network surrogate model for performance prediction  
+- Automated data processing pipeline  
+- Performance visualisation tools  
 
 ---
 
@@ -21,7 +21,7 @@
 1. **XFOIL** must be installed and available in system PATH  
 2. Python 3.8+ with virtual environment
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow the standard GitHub workflow:
 
@@ -33,19 +33,19 @@ Contributions are welcome! Please follow the standard GitHub workflow:
 
 ---
 
-## 📄 License
+## License
 
 Distributed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 This work was developed as part of an MEng dissertation submitted to the University of Manchester under the supervision of Dr. Saleh Rezaieravesh and Dr. Nadir Ince.
 
 ---
 
-## 🛠 Built with
+## Built with
 
 - [PyTorch](https://pytorch.org)  
 - [NumPy](https://numpy.org)  
@@ -54,7 +54,7 @@ This work was developed as part of an MEng dissertation submitted to the Univers
 
 ---
 
-## 📚 References
+## References
 
 - [Wasserstein GAN with Gradient Penalty](https://arxiv.org/abs/1704.00028)  
 - [XFOIL Documentation](https://web.mit.edu/drela/Public/web/xfoil/)
